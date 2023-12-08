@@ -1,0 +1,10 @@
+pub mod ffi_export;
+pub mod ffi_import;
+pub mod ffi_common;
+
+pub mod bindgen{
+    #![allow(non_upper_case_globals)]
+    #![allow(non_camel_case_types)]
+    #![allow(non_snake_case)]
+    include!(concat!(env!("OUT_DIR"), "/bindings.rs"));
+}

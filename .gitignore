@@ -1,0 +1,4 @@
+/rust_side/target
+/cpp_side/obj
+/out
+/.vscode

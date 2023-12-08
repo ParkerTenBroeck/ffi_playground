@@ -56,7 +56,7 @@ impl<Args, R> std::fmt::Debug for Function<Args, R>{
     }
 }
 
-#[export_name = "_ZN10ffi_import9callback_testESt8functionIFiSt17basic_string_viewIcSt11char_traitsIcEEEE"]   
+#[export_name = "_ZN10ffi_import13callback_testESt8functionIFiSt17basic_string_viewIcSt11char_traitsIcEEEE"]   
 pub unsafe extern "C-unwind" fn not_ok(
     v1: &Function<StringView, i32>,
 ) {
